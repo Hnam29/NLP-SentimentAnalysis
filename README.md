@@ -1,5 +1,5 @@
 # NLP-SentimentAnalysis
-Natural Language Processing (NLP): This project analyze sentiment by classifying in scraped reviews on App Store and Google Play 
+Natural Language Processing (NLP): This project analyze sentiment by classifying in scraped Vietnamese reviews on App Store and Google Play 
 - Preprocess the review data
 - Apply the Word2Vec/PhoBERT vectorization
 - Train the Machine Learning model with processed data
@@ -8,7 +8,8 @@ Natural Language Processing (NLP): This project analyze sentiment by classifying
 
 Problem statement:
 - App creators want to understand user behavior but fear of handling data
-- Lack of sentiment analysis tools
+- The amount of data to process is huge (Big data)
+- Lack of good sentiment analysis tools 
 
 Solution:
 - Natural Language Processing
@@ -20,3 +21,7 @@ Model used:
 Techniques:
 - Stopwords; normalization; tokenization; Parts-of-Speech (POS)
 - Standard scaler; PCA
+
+Limitation & Future development:
+- Apply hyperparameter tuning 
+- Add domain knowledge features 
